@@ -51,8 +51,8 @@ def make_version():
         except OSError:
             import warnings
             warnings.warn("Could not run ``git describe``")
-    elif os.path.exists('corrdb.egg-info'):
-        from corrdb import get_version
+    elif os.path.exists('contracts.egg-info'):
+        from contracts import get_version
         version = get_version()
 
     return version
