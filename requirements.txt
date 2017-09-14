@@ -1,0 +1,15 @@
+enum34
+fabric
+coverage
+PyYAML
+six
+sphinx_rtd_theme
+sphinx
+nose
+flake8
+pydocstyle
+pylint
+tox
+httplib2
+toolz
+click
