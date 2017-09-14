@@ -66,6 +66,11 @@ setup(name='contracts',
     license='MIT License',
     packages=find_packages(),
     include_package_data=True,
+    classifiers=[
+      'Development Status :: 1 - Alpha',
+      'Intended Audience :: Developers',
+      'Programming Language :: Python',
+      ],
     entry_points={
       'console_scripts': [
           'cnt-transform = contracts.transform:main',
@@ -74,14 +79,5 @@ setup(name='contracts',
     },
     test_suite='nose.collector',
     tests_require=['nose'],
-    install_requires=[
-      'PyYAML',
-      'six',
-      'enum34',
-      ],
-    classifiers=[
-      'Development Status :: 1 - Alpha',
-      'Intended Audience :: Developers',
-      'Programming Language :: Python',
-      ],
+    
     )

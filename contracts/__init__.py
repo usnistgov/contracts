@@ -6,6 +6,7 @@ def test():
     Run all the doctests available.
     """
     path = os.path.split(__file__)[0]
+    print "Path: "+path
     nose.main(argv=['-w', path, '--with-doctest'])
 
 
