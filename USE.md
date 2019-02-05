@@ -16,8 +16,6 @@ The command will return record.yaml file which contains the arborescence
 of the record and the guessed representation type.
 They are:
 
-1. Metadata: Everything in the record should be parsable
-   * and human readable by default (mimetype text)
-2. Raw: Everything in the record is a binary file that
-   * are not easily parsable. They will require the custom read.
+1. Metadata: Everything in the record should be parsable and human readable by default (mimetype text)
+2. Raw: Everything in the record is a binary file that are not easily parsable. They will require the custom read.
 3. Hybrid: Mixed content holding metadata and raw content.
