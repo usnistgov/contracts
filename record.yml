@@ -1,0 +1,44 @@
+record:
+  ~open:
+    record/Data:
+      ~open:
+        record/Data/Brim-1G-Nov-6-2018.pdf:
+          ~read:
+            record/Data/Brim-1G-Nov-6-2018.pdf: {}
+        record/Data/Brim-2h-Jan-16-2019.pdf:
+          ~read:
+            record/Data/Brim-2h-Jan-16-2019.pdf: {}
+        record/Data/cell-statief.jpg:
+          ~read:
+            record/Data/cell-statief.jpg: {}
+        record/Data/images:
+          ~open:
+            record/Data/images/Content-Analytics-icon-amawordsdotcom.png:
+              ~read:
+                record/Data/images/Content-Analytics-icon-amawordsdotcom.png: {}
+            record/Data/images/Document-icon.png:
+              ~read:
+                record/Data/images/Document-icon.png: {}
+            record/Data/images/chess.png:
+              ~read:
+                record/Data/images/chess.png: {}
+            record/Data/images/contracts.png:
+              ~read:
+                record/Data/images/contracts.png: {}
+        record/Data/leetcode-medium.txt:
+          ~parse:
+            record/Data/leetcode-medium.txt:
+              ~parse: {}
+    record/project.json:
+      ~parse:
+        record/project.json:
+          ~parse:
+            record/project.json/decription: {}
+            record/project.json/title: {}
+    record/record.json:
+      ~parse:
+        record/record.json:
+          ~parse:
+            record/record.json/cmd: {}
+            record/record.json/system: {}
+representation: hybrid

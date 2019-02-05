@@ -59,7 +59,7 @@ def make_version():
 
 setup(name='contracts',
     decription='A contracting library for cross-tools/services interoperability',
-    version=make_version(),
+    version='0.1',
     author='CoRR and Maestro Teams',
     author_email='faical.congo@nist.gov',
     url='https://github.com/usnistgov/contracts',
@@ -74,10 +74,11 @@ setup(name='contracts',
     entry_points={
       'console_scripts': [
           'cnt-transform = contracts.transform:main',
-          'cnt-archive = contracts.archive:main'
+          'cnt-archive = contracts.archive:main',
+          'cnt-flower = contracts.abstract.flower:main'
       ]
     },
     test_suite='nose.collector',
     tests_require=['nose'],
-    
+
     )

@@ -30,6 +30,30 @@ def read_json(filepath):
         data = json.load(stream)
     return data
 
+def read_xml(filepath):
+    """
+    Read a XML file and returns the corresponding dictionary.
+
+    :param filepath: The path to the XML file.
+    :returns: A dictionary of the XML file.
+    """
+    LOGGER.debug('Reading in XML file: {}'.format(filepath))
+    with open(filepath) as stream:
+        data = json.load(stream)
+    return data
+
+def read_csv(filepath):
+    """
+    Read a CSV file and returns the corresponding dictionary.
+
+    :param filepath: The path to the CSV file.
+    :returns: A dictionary of the CSV file.
+    """
+    LOGGER.debug('Reading in CSV file: {}'.format(filepath))
+    with open(filepath) as stream:
+        data = json.load(stream)
+    return data
+
 def get_file_name(path):
     """
     Grabs the name of the file of the given path.

@@ -1,0 +1,12 @@
+record:
+  ~open:
+    Data:
+      ~open:
+        - node1:
+          ~open: Data
+          ~read: node2
+          ~parse: node2
+    project.json:
+      ~parse: leaf
+    record.json:
+      ~parse: leaf
